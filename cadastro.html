@@ -4,36 +4,37 @@
     <link rel="stylesheet" href="./css/global.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastre-se</title>
 </head>
 <body>
-    <form action="./home.html">
+    <form action="./home.html" method="post">
+
         <fieldset>
             <legend>Login</legend>
 
-            <label for="nomePessoa">Nome Completo:</label><br>
+            <label for="nomePessoa">Nome Completp:</label><br>
             <input type="text" name="nomePessoa"><br><br>
 
             <label for="emailPessoa">Email:</label><br>
-            <input type="email" name="emailPessoa"><br><br>
+            <input type="text" name="emailPessoa"><br><br>
 
             <label for="senhaPessoa">Senha:</label><br>
-            <input type="password" name="senhaPessoa" required><br><br>
+            <input type="password" name="senhaPessoa"><br><br>
 
             <label for="confirmarsenhaPessoa">Confirmar Senha:</label><br>
-            <input type="password" name="senhaPessoa" required><br><br>
+            <input type="password" name="confirmarsenhaPessoa"><br><br>
 
-            <label for="perfilPessoa">Perfil:</label><br>
+            <label for="perfilPessoa"></label><br>
             <select name="perfilPessoa" required>
                 <option value="professor">Professor</option>
                 <option value="administrador">Administrador</option>
                 <option value="jogador">Jogador</option>
-            </select>
+            </select><br><br>
 
-            <button type="submit">Cadastrar</button>
-            <button type="submit">Voltar</button>
+            <input type="submit" nmae="btLogin" value="Login"><br><br>
 
         </fieldset>
-    </form>
+     </form>
 </body>
 </html>
+    
